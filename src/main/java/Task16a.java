@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 
 public class Task16a {
     WebDriver driver;
+
     @Test
     public void Chrome() {
         driver = new ChromeDriver();
@@ -20,6 +21,7 @@ public class Task16a {
             System.out.println("Page not landed on correct website");
         }
         driver.quit();
-
-
     }
+}
+
+
